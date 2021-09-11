@@ -13,11 +13,12 @@ body {
 .grid {
   /* add correct code to place the grid elements 
   one beside the other equally.   */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   font-family: sans-serif;
-  background-color:black;
+  background-color:rgb(255, 255, 255);
   font-weight:400;
-  color:white;
+  color:rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
 }
